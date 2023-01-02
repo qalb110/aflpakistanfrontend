@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Join Us | Pakistan Australian Football League</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Sports Team template project" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css" />
+        <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css" />
+        <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css" />
+        <link rel="stylesheet" type="text/css" href="styles/about.css" />
+        <link rel="stylesheet" href="styles/main.css" />
+        <script nonce="3c4d8b09-e6d2-4d63-8966-ec43747589a3">
+            ;(function (w, d) {
+                !(function (a, e, t, r) {
+                    a.zarazData = a.zarazData || {}
+                    a.zarazData.executed = []
+                    a.zaraz = {
+                        deferred: [],
+                        listeners: [],
+                    }
+                    a.zaraz.q = []
+                    a.zaraz._f = function (e) {
+                        return function () {
+                            var t = Array.prototype.slice.call(arguments)
+                            a.zaraz.q.push({
+                                m: e,
+                                a: t,
+                            })
+                        }
+                    }
+                    for (const e of ['track', 'set', 'debug']) a.zaraz[e] = a.zaraz._f(e)
+                    a.zaraz.init = () => {
+                        var t = e.getElementsByTagName(r)[0],
+                            z = e.createElement(r),
+                            n = e.getElementsByTagName('title')[0]
+                        n && (a.zarazData.t = e.getElementsByTagName('title')[0].text)
+                        a.zarazData.x = Math.random()
+                        a.zarazData.w = a.screen.width
+                        a.zarazData.h = a.screen.height
+                        a.zarazData.j = a.innerHeight
+                        a.zarazData.e = a.innerWidth
+                        a.zarazData.l = a.location.href
+                        a.zarazData.r = e.referrer
+                        a.zarazData.k = a.screen.colorDepth
+                        a.zarazData.n = e.characterSet
+                        a.zarazData.o = new Date().getTimezoneOffset()
+                        a.zarazData.q = []
+                        for (; a.zaraz.q.length; ) {
+                            const e = a.zaraz.q.shift()
+                            a.zarazData.q.push(e)
+                        }
+                        z.defer = !0
+                        for (const e of [localStorage, sessionStorage])
+                            Object.keys(e || {})
+                                .filter((a) => a.startsWith('_zaraz_'))
+                                .forEach((t) => {
+                                    try {
+                                        a.zarazData['z_' + t.slice(7)] = JSON.parse(e.getItem(t))
+                                    } catch {
+                                        a.zarazData['z_' + t.slice(7)] = e.getItem(t)
+                                    }
+                                })
+                        z.referrerPolicy = 'origin'
+                        z.src = '../../cdn-cgi/zaraz/sd0d9.js?z=' + btoa(encodeURIComponent(JSON.stringify(a.zarazData)))
+                        t.parentNode.insertBefore(z, t)
+                    }
+                    ;['complete', 'interactive'].includes(e.readyState) ? zaraz.init() : a.addEventListener('DOMContentLoaded', zaraz.init)
+                })(w, d, 0, 'script')
+            })(window, document)
+        </script>
+    </head>
+
+    <body>
+        <div class="super_container">
+            <header class="header position-absolute">
+                <div class="header_content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="main_nav_container_outer d-flex flex-row align-items-end justify-content-center trans_400">
+                                    <nav class="main_nav">
+                                        <div class="main_nav_container d-flex flex-row align-items-center justify-content-lg-start justify-content-center">
+                                            <div>
+                                                <div class="header_live">
+                                                    <a href="#">
+                                                        <div class="d-flex flex-row align-items-center justify-content-start">
+                                                            <div>Lorem ipsum dolor sit amet, consectetur...</div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <ul class="d-flex flex-row align-items-start justify-content-end">
+                                                    <li><a href="index.html">home</a></li>
+                                                    <li><a href="about.html">about the club</a></li>
+                                                    <li><a href="media.html">media</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="logo_container text-center">
+                                                <div class="trans_200">
+                                                    <a href="index.html"><img src="images/PAFL-logo.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <ul class="d-flex flex-row align-items-start justify-content-start">
+                                                    <li class="active"><a href="join.html">Join Us</a></li>
+                                                    <li><a href="blog.html">news</a></li>
+                                                    <li><a href="contact.html">contact</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    <div class="hamburger">
+                                        <i class="fa fa-bars trans_200"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="menu">
+                <div class="menu_background">
+                    <div class="menu_container d-flex flex-column align-items-end justify-content-start">
+                        <div class="menu_close">x</div>
+                        <div class="menu_user_area">
+                            <ul class="d-flex flex-row align-items-start justify-content-end">
+                                <li><a href="#">Sign up</a></li>
+                                <li><a href="#">Sign in</a></li>
+                            </ul>
+                        </div>
+                        <nav class="menu_nav">
+                            <ul class="text-right">
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="about.html">about the club</a></li>
+                                <li><a href="media.html">media</a></li>
+                                <li><a href="join.html">Join Us</a></li>
+                                <li><a href="blog.html">news</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="player mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="player_content">
+                                <div class="section_title_container">
+                                    <div class="section_title">
+                                        <h1>Join A F L Pakistan as a pioneer</h1>
+                                    </div>
+                                    <div class="section_subtitle">Aussies Rules Football or Australian Football League 🏈 is in Pakistan as AFL Pakistan.</div>
+                                </div>
+                                <div class="player_text">
+                                    <img height="350" style="clear: left; float: left; margin-right: 25px; border: solid 8px #59db26" src="./images/ceo.jpeg" alt="" />
+                                    <p>We have launched our schools programs by the name of "Pakick" following the "auskick" brand for schools at Australia.</p>
+                                    <p>AFL Pakistan vows to register 1million players per annum those would be men, women, school & college kids both girls and boys.</p>
+                                    <p>The registration would be against an amount which we would like to share with those brands joining us as sponsors.</p>
+                                    <p>AFL Pakistan is in talks with a cellular company too to make the registration process easier by giving users to the cellular company.</p>
+                                    <p>Once the registrations are done so it means the AFL registered players/users would be certainly using apps like Uber, Careem too. A F L Pakistan registered user/player would have to use a certain app against some attractive discounts. So again the traveling app company gets user and business too.</p>
+                                    <p>We invite pioneer brands of any industry to come and join us in this journey to share the revenue from such ventures by signing an MoU with A F L Pakistan. Lets do this for our country, sports and especially for the economic prosperity by bringing another commercial sport to Pakistan.</p>
+                                    <p>Please note that AFL is being played in USA, Canada, Australia, New Zealand, Ireland and the list goes on. Join us and take the first mover advantage.</p>
+                                    <p>Thanks in anticipation</p>
+                                    <div class="stamp">
+                                        <h3>Nasir Ali</h3>
+                                        <p>CEO</p>
+                                        <span>AFL Pakistan</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="section_title_container">
+                                <div class="section_title">
+                                    <h1>latest news</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row news_row">
+                        <div class="col-lg-4">
+                            <div class="news_post">
+                                <div class="news_post_image">
+                                    <img src="images/cads/about image.jpeg" alt="" />
+                                </div>
+                                <div class="news_post_content">
+                                    <div class="tags">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li><a href="blog.html">News</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="news_post_title"><a href="blog.html">T-shirt release date</a></div>
+                                    <div class="news_post_text">
+                                        <p>The launch of our jerseys is expected to be sooner before the 20th of October. Don't forget to grab yours. Support your team by purchasing the jersey by clicking and ordering. (click will take them to email part)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="news_post">
+                                <div class="news_post_image">
+                                    <img src="images/cads/WhatsApp Image 2022-10-12 at 3.26.03 AM.jpeg" alt="" />
+                                </div>
+                                <div class="news_post_content">
+                                    <div class="tags">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li><a href="blog.html">News</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="news_post_title"><a href="blog.html">Pakick Leagues openings</a></div>
+                                    <div class="news_post_text">
+                                        <p>Like Australia schools, for kids the AFL brand is called as "auskick", similarly we are also launching our program for school kids girls and boys named "Pakick". If you are a school/college interested to join, let us know here..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="news_post">
+                                <div class="news_post_image">
+                                    <img src="images/cads/WhatsApp Image 2022-10-12 at 3.52.33 AM.jpeg" alt="" />
+                                </div>
+                                <div class="news_post_content">
+                                    <div class="tags">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li><a href="blog.html">News</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="news_post_title"><a href="blog.html"> Clubs/franchises</a></div>
+                                    <div class="news_post_text">
+                                        <p>For adults men and women teams, or group of individuals wishing to join AFL Pakistan as a club, or want to register a franchise, talk to us. We are here to assist.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="cta_content d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
+                                <div class="cta_text">Join Australian Football League <span>Pakistan 🏈</span></div>
+                                <div class="cta_button button ml-md-auto"><a href="contact.html">See More Info</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 order-lg-1 order-3">
+                                <div class="footer_image d-flex flex-column align-items-lg-start align-items-center justify-content-end">
+                                    <div><img src="images/football_PNG52778.png" alt="" /></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 order-lg-2 order-1">
+                                <div class="footer_contact_info">
+                                    <div class="footer_logo">
+                                        <a href="#"><img width="200" src="images/PAFL-logo.png" alt="" /></a>
+                                    </div>
+                                    <div class="footer_contact_list">
+                                        <ul>
+                                            <li>
+                                                <div>Address</div>
+                                                <div>5th Floor, Shuaq 8 Plaza, Business Bay, DHA Phase II, Islamabad (Pakistan)</div>
+                                            </li>
+                                            <li>
+                                                <div>Phone</div>
+                                                <div>+92 345 512 11 57</div>
+                                            </li>
+                                            <li>
+                                                <div>facebook</div>
+                                                <div><a href="https://www.facebook.com/AflPakistan/" target="__blank">https://www.facebook.com/AflPakistan</a></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 order-lg-3 order-2">
+                                <div class="newsletter">
+                                    <div class="newsletter_title">Subscribe to newsletter</div>
+                                    <div class="newsletter_form_container">
+                                        <form action="#" class="newsletter_form" id="newsletter_form">
+                                            <div class="d-flex flex-row align-items-start justify-content-start">
+                                                <input type="email" class="newsletter_input" placeholder="Your e-mail address" required />
+                                                <button class="newsletter_button">Submit</button>
+                                            </div>
+                                        </form>
+                                        <div class="newsletter_text"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="footer_bar_content d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
+                                    <div class="cr order-md-1 order-2">
+                                        Copyright &copy;
+                                        <script>
+                                            document.write(new Date().getFullYear())
+                                        </script>
+                                        All rights reserved by
+                                        <a href="#" target="_blank">AFL Pakistan</a>
+                                    </div>
+                                    <nav class="footer_nav ml-md-auto order-md-2 order-1">
+                                        <ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">about us</a></li>
+                                            <li><a href="join-us.html">Join Us</a></li>
+                                            <li><a href="blog.html">News</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="styles/bootstrap-4.1.2/popper.js"></script>
+        <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+        <script src="plugins/greensock/TweenMax.min.js"></script>
+        <script src="plugins/greensock%2c_TimelineMax.min.js%2bscrollmagic%2c_ScrollMagic.min.js%2bgreensock%2c_animation.gsap.min.js%2bgreensock%2c_ScrollToPlugin.min.js.pagespeed.jc.buuAU4Ooq2.26.del"></script>
+        <script>
+            eval(mod_pagespeed_4$$DLl56ly)
+        </script>
+        <script>
+            eval(mod_pagespeed_JMUlC6Bl7b)
+        </script>
+        <script>
+            eval(mod_pagespeed_c2GF92OIjl)
+        </script>
+        <script>
+            eval(mod_pagespeed_z8lnnEy_xA)
+        </script>
+        <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+        <script src="plugins%2c_easing%2c_easing.js%2bplugins%2c_progressbar%2c_progressbar.min.js%2bplugins%2c_parallax-js-master%2c_parallax.min.js%2bjs%2c_custom.js.pagespeed.jc.G0T8bAelTU.js"></script>
+        <script>
+            eval(mod_pagespeed_SJ7jqEYOXw)
+        </script>
+        <script>
+            eval(mod_pagespeed_YDz0CfPCFL)
+        </script>
+        <script>
+            eval(mod_pagespeed_ySriU9wlC5)
+        </script>
+        <script>
+            eval(mod_pagespeed_JRaN91eByf)
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7580e159d86ac976","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}' crossorigin="anonymous"></script>
+    </body>
+
+    <!-- Mirrored from preview.colorlib.com/theme/sportsteam/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Oct 2022 16:55:13 GMT -->
+</html>
