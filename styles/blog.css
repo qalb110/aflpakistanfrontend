@@ -1030,7 +1030,6 @@ section {
     margin-left: -6px;
 }
 .footer_contact_info {
-    padding-top: 93px;
     padding-bottom: 113px;
 }
 .footer_contact_list {
@@ -1152,3 +1151,8 @@ section {
 .footer_nav ul li a:hover {
     color: #59db26;
 }
+@media screen and (max-width: 991px) {
+    .newsletter {
+        padding-top: 40px;
+    }
+    }

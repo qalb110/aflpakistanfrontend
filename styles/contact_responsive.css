@@ -311,7 +311,6 @@
 	.home
 	{
 		height: 350px;
-		padding-bottom: 102px;
 	}
 	.home_text
 	{
@@ -360,7 +359,8 @@
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px)
-{
-	
-}
+@media screen and (max-width: 991px) {
+	.newsletter {
+		padding-top: 40px;
+	}
+	}

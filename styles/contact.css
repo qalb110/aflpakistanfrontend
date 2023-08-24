@@ -333,7 +333,7 @@ section
 {
 	display: block;
 	position: fixed;
-	top: 0;#59db26
+	top: 0;
 	left: 0;
 	width: 100%;
 	background: rgba(22,29,74,0.75);
@@ -949,7 +949,6 @@ section
 }
 .footer_contact_info
 {
-	padding-top: 93px;
 	padding-bottom: 113px;
 }
 .footer_contact_list
@@ -1095,3 +1094,8 @@ section
 {
 	color: #59db26;
 }
+@media screen and (max-width: 991px) {
+	.newsletter {
+		padding-top: 40px;
+	}
+	}

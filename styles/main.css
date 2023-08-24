@@ -73,8 +73,6 @@ a:hover {
     background: rgba(255, 165, 75, 1);
     color: #fff;
 }
-p::selection {
-}
 h1 {
     font-size: 48px;
 }
@@ -101,13 +99,6 @@ h6 {
     -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
     line-height: 1.2;
-}
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection {
 }
 img {
     max-width: 100%;
@@ -756,13 +747,10 @@ section {
     background: #161d4a;
 }
 .breaking_news {
-    width: 100%;
     height: 78px;
 }
 .breaking_news_title {
-    width: 34.48%;
-    height: 100%;
-    padding-right: 62px;
+    /* height: 100%; */
     background: #59db26;
     line-height: 78px;
     font-size: 30px;
@@ -770,11 +758,8 @@ section {
     color: #161d4a;
 }
 .breaking_news_content {
-    width: 65.52%;
-    height: 100%;
+    /* height: 100%; */
     background: #161d4a;
-    padding-left: 32px;
-    padding-right: 150px;
 }
 .breaking_news_slider_container {
     height: 100%;
@@ -828,8 +813,6 @@ section {
 .result:last-child .result_content {
     padding-left: 31px;
 }
-.result_content {
-}
 .result_content > div {
     width: 50%;
 }
@@ -874,8 +857,6 @@ section {
 }
 .upcoming_latest {
     background: #161d4a;
-    padding-top: 92px;
-    padding-bottom: 100px;
     z-index: 1;
 }
 .upcoming_image {
@@ -885,9 +866,6 @@ section {
     z-index: -1;
 }
 .custom_lists_row {
-    margin-top: 63px;
-}
-.custom_list_a {
     margin-top: 63px;
 }
 .custom_list_a ul li {
@@ -1098,19 +1076,12 @@ section {
 .player_image:first-child {
     margin-right: 40px;
 }
-.stamp {
-    float: right;
-    text-align: center;
-    margin-bottom: 20px;
-}
 .stamp h3 {
     color: #59db26;
 }
 
 .news {
     background: #d7d9e5;
-    padding-top: 100px;
-    padding-bottom: 61px;
 }
 .news_row {
     margin-top: 96px;
@@ -1233,7 +1204,6 @@ section {
     margin-left: -6px;
 }
 .footer_contact_info {
-    padding-top: 93px;
     padding-bottom: 113px;
 }
 .footer_contact_list {
@@ -1724,4 +1694,27 @@ section {
     .pricing-table {
         margin-bottom: 30px;
     }
+}
+@media screen and (max-width: 767px) {
+    .breaking_news_slide {
+        line-height: 40px;
+    }
+    .breaking_news {
+        height: 0% !important;
+    }
+    .owl-item{
+        width: 0%;
+    }
+}
+@media screen and (max-width: 681px) {
+
+    .breaking_news_slide {
+        line-height: 20px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+.newsletter {
+    padding-top: 40px;
+}
 }
