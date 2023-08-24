@@ -710,7 +710,7 @@ section {
     font-weight: 900;
     line-height: 0.75;
     -webkit-text-stroke: 3px #ffffff;
-    text-stroke: 3px #191339;
+    /* text-stroke: 3px #191339; */
     color: #1b9ee9;
 }
 .zoomInDown {

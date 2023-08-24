@@ -102,8 +102,6 @@ a:hover {
     background: #59db26;
     color: #ffffff;
 }
-p::selection {
-}
 h1 {
     font-size: 48px;
 }
@@ -130,13 +128,6 @@ h6 {
     -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
     line-height: 1.2;
-}
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection {
 }
 img {
     max-width: 100%;
